@@ -1,0 +1,31 @@
+
+/* src - EmployeeList.css */
+
+.EmployeeList {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    background-color: #242424;
+}
+
+.grid1 {
+    color:  #ecae00;
+}
+
+.grid2 {
+    color:  #ecae00;
+}
+.grid3 {
+    color:  #ecae00;
+}
+.grid4 {
+    color:  #ecae00;
+}
+.grid5 {
+    color:  #ecae00;
+}
+.grid6 {
+    color:  #ecae00;
+}
