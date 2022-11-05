@@ -1,14 +1,13 @@
 
 import React from 'react';
 import './EmployeePage.css';
-//import doctor1 from './doctor7.jpg';
 
 function EmployeePage(props) {
     return (
         <div className="EmployeePage">
             <div className="spaces">
                 <div className="grid1">
-            <img className="img1" alt="doctor" src={props.src} />
+            <img className="img2" alt="doctor" src={props.src} />
             <div className="bio-box">
             <h1><u> Bio</u></h1>
                             <p className="p3">
@@ -28,6 +27,7 @@ function EmployeePage(props) {
             <div className="grid2"> 
                 <br />
             <h1><u> James Thomas </u></h1><br />
+            <div className="about-box">
             <h1><u> About Work </u></h1> <br />
             <p className="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Nunc mi ipsum faucibus vitae aliquet nec. Gravida in fermentum et sollicitudin. 
@@ -50,8 +50,9 @@ function EmployeePage(props) {
                     Pharetra pharetra massa massa ultricies mi quis. Fusce id velit ut tortor pretium viverra suspendisse. 
                     Nam at lectus urna duis convallis convallis tellus id. Vestibulum morbi blandit cursus risus.
                      Elementum sagittis vitae et leo duis. Nec ultrices dui sapien eget mi proin. 
-                     Pharetra magna ac placerat vestibulum.</p> <br />
-
+                     Pharetra magna ac placerat vestibulum.</p> <br /> </div>
+                    <br />
+            <div className="work-box">
             <h1><u> Work Experience </u></h1> 
             <ul className="l1">
                 <li> Job 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -61,6 +62,7 @@ function EmployeePage(props) {
                 <li> Job 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>         
                 </ul>
+                </div>
                 </div>
                 </div>    
         </div>

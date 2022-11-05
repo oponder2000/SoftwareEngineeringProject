@@ -1,16 +1,12 @@
-//import logo from './logo.svg';
+
 import './App.css';
-import './Header.css';
 import './EmployeeList.css';
-import './Footer.css';
 import './EmployeePage.css';
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Link, Navigate, Redirect } from "react-router-dom";  
-import { useHistory } from "react-router-dom";
-import Headers from './Header';
+//import { Link, Navigate, Redirect } from "react-router-dom";  
+//import { useHistory } from "react-router-dom";
 import EmployeeList from './EmployeeList';
-import Footer from './Footer';
 import doctor1 from './doctor7.jpg';
 import doctor2 from './doctor2.jpg';
 import doctor3 from './doctor3.jpg';
@@ -22,7 +18,7 @@ import EmployeePage from './EmployeePage';
 function App() {
   return (
     <div className="App">
-    <Headers />
+   {/* <Headers /> */}
     <Router>
         {/*< EmployeeList /> */}
         <Routes>
@@ -34,9 +30,9 @@ function App() {
             <Route exact path="/employee4" element={<EmployeePage src={doctor4} />} />
             <Route exact path="/employee5" element={<EmployeePage src={doctor5} />} />
             <Route exact path="/employee6" element={<EmployeePage src={doctor6} />} />
-  </Routes>  
+            </Routes>  
         </Router>
-      <Footer />
+     {/* <Footer /> */}
     </div>
   );
 }
