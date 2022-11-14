@@ -36,7 +36,7 @@ function Employee(props) {
                         </div> {/* End of Grid 1 */}
 
                 <div className="grid2"> 
-                    <h2><u> James Thomas </u></h2><br />
+                    <h2><u> {props.name} </u></h2><br />
                     <div className="about-box">
                     <h2><u> About Work </u></h2> <br />
                     <p className="p1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
