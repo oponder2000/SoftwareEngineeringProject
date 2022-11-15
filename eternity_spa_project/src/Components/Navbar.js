@@ -62,9 +62,9 @@ function Navbar() {
                         Staff
                     </Link>
                  </li>
-                 <li className='Products'>
-                    <Link to='/products' className='nav-links' onClick ={closeMobileMenu}>
-                        Log-In
+                 <li className='nav-item'>
+                    <Link to='/RegistrationForm' className='nav-links' onClick ={closeMobileMenu}>
+                        Registration 
                     </Link>
                  </li>
                  <li className='Records'>
