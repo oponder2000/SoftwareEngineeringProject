@@ -20,12 +20,12 @@ function App() {
           <Route path="/" element={<Home/>}/> 
           <Route path="/Treatments" element={<Treatment/>}/>
           <Route path="/Staff" element={<Staff />}/>
-          <Route exact path="/employee1" element={<Employee src={process.env.PUBLIC_URL + "images/doctor7.jpg"} />} />
-          <Route exact path="/employee2" element={<Employee src={process.env.PUBLIC_URL + "images/doctor2.jpg"} />} />
-          <Route exact path="/employee3" element={<Employee src={process.env.PUBLIC_URL + "images/doctor3.jpg"} />} />
-          <Route exact path="/employee4" element={<Employee src={process.env.PUBLIC_URL + "images/doctor4.jpg"} />} />
-          <Route exact path="/employee5" element={<Employee src={process.env.PUBLIC_URL + "images/doctor5.jpg"} />} />
-          <Route exact path="/employee6" element={<Employee src={process.env.PUBLIC_URL + "images/doctor6.jpg"} />} />
+          <Route exact path="/employee1" element={<Employee src={process.env.PUBLIC_URL + "images/doctor7.jpg"} name="James Thomas"/>} />
+          <Route exact path="/employee2" element={<Employee src={process.env.PUBLIC_URL + "images/doctor2.jpg"} name="Tina Cortez" />} />
+          <Route exact path="/employee3" element={<Employee src={process.env.PUBLIC_URL + "images/doctor3.jpg"} name="Joe Wilson" />} />
+          <Route exact path="/employee4" element={<Employee src={process.env.PUBLIC_URL + "images/doctor4.jpg"} name="Kimberly Johnson" />} />
+          <Route exact path="/employee5" element={<Employee src={process.env.PUBLIC_URL + "images/doctor5.jpg"} name="Timothy Dawkins" />} />
+          <Route exact path="/employee6" element={<Employee src={process.env.PUBLIC_URL + "images/doctor6.jpg"} name="Cynthia Williams" />} />
         </Routes>
     </BrowserRouter>    
       </>

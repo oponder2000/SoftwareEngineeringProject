@@ -2,16 +2,8 @@
 // src - EmployeeList.js
 import '../Staff.css';
 import '../Employee.css';
-//import Header from './Header';
-//import doctor2 from 'images/doctor2.jpg';
-//import doctor3 from 'images/doctor3.jpg';
-//import doctor4 from 'images/doctor4.jpg';
-//import doctor5 from '/images/doctor5.jpg';
-//import doctor6 from '/images/doctor6.jpg';
-//import doctor7 from '/images/doctor7.jpg';
 import React from 'react';
-import Employee from './Employee';
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import Employee from './Employee';
 import { Link} from "react-router-dom"; 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
  //import {
@@ -24,13 +16,13 @@ function Headers() {
     return (
         <div className="Header">
             <br />
-            <h1 className="h1"> Our Team </h1>
+            <h1> Our Team </h1>
             <img className="img1" alt="logo" src = {process.env.PUBLIC_URL + "images/image-1.jpg"} />
         </div>
     )
 }
 
-{/*function Footer1() {
+{ /*function Footer1() {
     return (
         <div className="Footer1">
             <h3> Follow Us On Social Media! </h3>
@@ -77,19 +69,6 @@ function Staff() {
             <br /> <p> Meet Cynthia Wiliiams. For More <Link to="/employee6">  Click  </Link> The Image </p>
             </div>
         </div>
-
-        {/*
-        <Router>
-            <Routes>
-                <Route exact path="/employee1" element={<Employee src={process.env.PUBLIC_URL + "images/doctor7.jpg"} />} />
-                <Route exact path="/employee2" element={<Employee src={process.env.PUBLIC_URL + "images/doctor2.jpg"} />} />
-                <Route exact path="/employee3" element={<Employee src={process.env.PUBLIC_URL + "images/doctor3.jpg"} />} />
-                <Route exact path="/employee4" element={<Employee src={process.env.PUBLIC_URL + "images/doctor4.jpg"} />} />
-                <Route exact path="/employee5" element={<Employee src={process.env.PUBLIC_URL + "images/doctor5.jpg"} />} />
-                <Route exact path="/employee6" element={<Employee src={process.env.PUBLIC_URL + "images/doctor6.jpg"} />} /> 
-            </Routes>  
-        </Router>
-    */}
             {/*<Footer1 /> */}
         </div>
     )
