@@ -18,8 +18,6 @@ function Employee(props) {
                              ut labore et dolore magna aliqua. Molestie a iaculis at erat pellentesque. 
                              Tempus egestas sed sed risus pretium quam vulputate dignissim. 
                              Platea dictumst vestibulum rhoncus est pellentesque elit. 
-                             Enim ut sem viverra aliquet eget sit amet tellus. 
-                             Sit amet nulla facilisi morbi tempus. 
                             </p>
                             </div><br /><br /> {/* Bio - box */}
 
@@ -49,11 +47,7 @@ function Employee(props) {
                         Netus et malesuada fames ac. Blandit turpis cursus in hac habitasse. 
                         Et leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. 
                         Id aliquet lectus proin nibh nisl condimentum id venenatis a. Ut eu sem integer vitae justo. 
-                        Eu lobortis elementum nibh tellus molestie nunc non blandit massa. 
-                        Enim sed faucibus turpis in eu mi bibendum neque. 
-                        Tristique nulla aliquet enim tortor at auctor urna. 
-                        Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. 
-                        Tincidunt praesent semper feugiat nibh sed pulvinar proin.</p>
+                        Eu lobortis elementum nibh tellus molestie nunc non blandit massa. </p>
                      </div> <br /> {/* End of about box */}
 
             <div className="work-box">
