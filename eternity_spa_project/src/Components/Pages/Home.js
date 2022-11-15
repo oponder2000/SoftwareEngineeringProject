@@ -7,7 +7,7 @@ function Home () {
     return (
         <>  
             <Menu /*thsi calls the menu function - video & text*//>
-            <Footer/>  
+            {/* <Footer/>   */}
         </>
 
     );

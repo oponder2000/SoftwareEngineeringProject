@@ -9,6 +9,7 @@ import Treatment from './Components/Pages/Treatment';
 import Staff from './Components/Pages/Staff';
 import Employee from './Components/Pages/Employee';
 import RegistrationForm from "./Components/Registration";
+import Footer from "./Components/Footer";
 
  
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/employee6" element={<Employee src={process.env.PUBLIC_URL + "images/doctor6.jpg"} name="Cynthia Williams" />} />
           <Route path="/RegistrationForm" element={<RegistrationForm/>}/>
         </Routes>
+        <Footer/>
     </BrowserRouter>    
       </>
   );  
