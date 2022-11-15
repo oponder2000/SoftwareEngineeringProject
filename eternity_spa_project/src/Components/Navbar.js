@@ -34,7 +34,7 @@ function Navbar() {
    
         <nav className='navbar'>
             <div className= 'navbar-container'>
-            <img src="/imagenes/image-5.jpg" height="50" width="5%"/>
+            <img src="/images/image-6.jpg" height="50" width="5%"/>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                          ETERNITY
                     </Link>
