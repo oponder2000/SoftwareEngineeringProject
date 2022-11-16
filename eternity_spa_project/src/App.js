@@ -10,6 +10,8 @@ import Staff from './Components/Pages/Staff';
 import Employee from './Components/Pages/Employee';
 import RegistrationForm from "./Components/Registration";
 import Login from "./Components/Pages/Login";
+import Footer from "./Components/Footer";
+
 
  
 function App() {
@@ -31,6 +33,7 @@ function App() {
           <Route path="/RegistrationForm" element={<RegistrationForm/>}/>
           <Route path="/log-in" element={<Login />} />
         </Routes>
+        <Footer/>
     </BrowserRouter>    
       </>
   );  

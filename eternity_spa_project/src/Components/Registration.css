@@ -12,8 +12,8 @@
 }
 
  .form-body{
-    text-align: left;
-    padding: 80px 50px;
+    text-align: center;
+    padding: 70px 55px;
 }
 
 .form-body > *{
@@ -29,6 +29,10 @@
     height: 100px;
 }
 
-.footer{
+.footer_submit{
     text-align: center;
-}  
+    border: 2px solid  #ecae00;
+    border-radius: 2px;
+    /* padding-left: ; */
+     display: inline-table; 
+} 
