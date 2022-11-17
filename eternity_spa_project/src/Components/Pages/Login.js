@@ -1,11 +1,27 @@
 import React from 'react';
 import '../Login.css';
 
+/*
 function success() {
     alert("Login was successful!");
 }
+*/
 
-function Login(props) {
+class Login extends React.Component {
+    
+    constructor(props) {
+        super(props);
+    }
+
+    /*
+    success() {
+        alert("Login was successful!");
+    }*/
+    success = () => {
+        alert("Login was successful!");
+    }
+
+    render() {
     return (
         <div className="Login">
 
@@ -31,7 +47,7 @@ function Login(props) {
                         Cancel
                     </button>
 
-                    <button className="login-btn" onClick={success}>
+                    <button className="login-btn" onClick={this.success}>
                         Log In
                     </button>
                 </div>
@@ -39,7 +55,8 @@ function Login(props) {
             </div>
 
         </div>
-    )
+    );
+    }
 }
 
 export default Login
