@@ -13,7 +13,7 @@ function Login(props) {
 
                 <div className="login-header">
                     <h2>LOG IN</h2>
-                    <img className="login-image" alt="eternity_logo" src={process.env.PUBLIC_URL + "images/image-5.jpg"} width="75px" height="75px" />
+                    {/* <img className="login-image" alt="eternity_logo" src={process.env.PUBLIC_URL + "images/image-5.jpg"} width="75px" height="75px" /> */}
                 </div><br /> <br />
 
                 <div className="username">
